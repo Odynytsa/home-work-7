@@ -1,0 +1,133 @@
+.block {
+  margin: 20px;
+  padding: 20px;
+  border: 5px solid black;
+  border-radius: 8px;
+}
+
+.inline {
+  margin: 20px;
+  border: 2px solid black;
+}
+
+/* DISPLAY */
+
+.display-block {
+  display: block;
+  background-color: lightgreen;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.display-inline {
+  display: inline;
+  background-color: orange;
+  padding: 10px;
+}
+
+.flex-container {
+  display: flex;
+  gap: 20px;
+  margin: 40px;
+}
+
+.flex-item {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  background-color: aqua;
+}
+
+.box-sizing-box {
+  box-sizing: border-box;
+  width: 300px;
+  padding: 30px;
+  border: 8px solid black;
+  margin-top: 20px;
+  background-color: blueviolet;
+}
+
+/* FLOAT */
+
+.float-box {
+  width: 150px;
+  height: 150px;
+  background-color: skyblue;
+  margin: 10px;
+  padding: 10px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.clear-box {
+  clear: both;
+  background-color: pink;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* OVERFLOW */
+
+.overflow-box {
+  background-color: aquamarine;
+  width: 300px;
+  height: 120px;
+  overflow: auto;
+  padding: 10px;
+  border: 3px solid black;
+}
+
+/* POSITION */
+.static-box {
+  position: static;
+  background-color: lightblue;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.relative-box {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  background-color: lightgreen;
+  margin-bottom: 30px;
+  padding: 20px;
+}
+
+.absolute-box {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  background-color: red;
+  color: white;
+  padding: 10px;
+}
+
+.fixed-box {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+.sticky-box {
+  position: sticky;
+  top: 0;
+  background-color: orange;
+  padding: 15px;
+}
+
+.big-space {
+  height: 1500px;
+  margin-top: 30px;
+}
